@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FASHION</title>
+  <title>AMBASSADOR</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
   <style>
@@ -41,42 +41,32 @@
 
     <!-- Image -->
     <div class="relative h-64 overflow-hidden">
-      <img src="IMAGES/IMG_0332.jpeg" alt="Fashion" class="w-full h-full object-cover" />
+      <img src="IMAGES/IMG_0719.png" alt="Fashion" class="w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-b from-black/10 to-black/55"></div>
       <div class="absolute bottom-5 left-[22px] right-[22px]">
-        <h1 class="text-[28px] font-semibold tracking-[0.08em] uppercase text-white leading-none">Fashion Brand</h1>
+        <h1 class="text-[28px] font-semibold tracking-[0.08em] uppercase text-white leading-none">Ambassador Contest</h1>
       </div>
     </div>
 
     <!-- Name chip -->
     <div class="flex justify-center -mt-4 relative z-10">
       <span class="bg-white rounded-full px-5 py-[7px] text-[13px] font-medium text-gray-900 shadow-[0_2px_12px_rgba(0,0,0,0.10)] tracking-[0.01em]">
-        Fashion Brand
+        Meta
       </span>
     </div>
 
     <!-- Buttons -->
-    <div class="flex gap-3 px-[18px] pt-[22px] pb-6">
-      <a onclick="voteWithRedirect('instagram')"
-         class="animate-pop-1 flex-1 flex flex-col items-center justify-center gap-[6px] py-4 px-3 rounded-2xl bg-[#E1306C] cursor-pointer transition-all duration-150 hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.18)] active:scale-95">
-        <svg class="w-5 h-5 text-white/90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
-          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-          <circle cx="12" cy="12" r="4"/>
-          <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" stroke="none"/>
-        </svg>
-        <span class="text-[9.5px] font-medium tracking-[0.13em] uppercase text-white text-center leading-snug">Vote with Instagram</span>
-      </a>
-
-      <a onclick="voteWithRedirect('email')"
-         class="animate-pop-2 flex-1 flex flex-col items-center justify-center gap-[6px] py-4 px-3 rounded-2xl bg-[#0078D4] cursor-pointer transition-all duration-150 hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.18)] active:scale-95">
-        <svg class="w-5 h-5 text-white/90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
-          <rect x="2" y="4" width="20" height="16" rx="2.5"/>
-          <polyline points="2,4 12,13 22,4"/>
-        </svg>
-        <span class="text-[9.5px] font-medium tracking-[0.13em] uppercase text-white text-center leading-snug">Vote with Email</span>
-      </a>
-    </div>
-
+<div class="flex justify-center px-[18px] pt-[22px] pb-6">
+  <a onclick="voteWithRedirect('instagram')"
+     class="animate-pop-1 w-full max-w-[260px] flex flex-col items-center justify-center gap-[6px] py-4 px-3 rounded-2xl bg-[#E1306C] cursor-pointer transition-all duration-150 hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.18)] active:scale-95">
+    <svg class="w-5 h-5 text-white/90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+      <circle cx="12" cy="12" r="4"/>
+      <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" stroke="none"/>
+    </svg>
+    <span class="text-[9.5px] font-medium tracking-[0.13em] uppercase text-white text-center leading-snug">Vote with Instagram</span>
+  </a>
+</div>
     <!-- Footer -->
     <div class="flex items-center justify-center gap-[6px] pb-5">
       <span class="text-[10px] tracking-[0.06em] text-[#b0afa9]">Secure</span>
@@ -99,7 +89,7 @@
     const cities = [
       'New York','Los Angeles','London','Paris','Tokyo','Sydney',
       'Toronto','Berlin','Dubai','Seoul','Milan','Amsterdam',
-      'Barcelona','Chicago','São Paulo','Singapore','Mumbai','Lagos'
+      'Barcelona','Chicago','São Paulo','Singapore','Mumbai',''
     ];
 
     let userPool = [];
@@ -176,3 +166,4 @@
   </script>
 </body>
 </html>
+
